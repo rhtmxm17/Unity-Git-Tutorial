@@ -10,7 +10,7 @@ public class Move2D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Console.WriteLine("°°Àº ÆÄÀÏÀÇ ´Ù¸¥ ÀÛ¾÷");
+        Console.WriteLine("ê°™ì€ íŒŒì¼ì˜ ë‹¤ë¥¸ ì‘ì—…");
     }
 
     // Update is called once per frame
