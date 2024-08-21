@@ -295,14 +295,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481112783}
-  m_LocalRotation: {x: -0, y: 0.99999964, z: -0, w: 0.0008560358}
-  m_LocalPosition: {x: 11.89, y: 1, z: 8.04}
+  m_LocalRotation: {x: -0, y: 0.72620916, z: -0, w: 0.68747383}
+  m_LocalPosition: {x: 2.73, y: 1, z: -4.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 179.902, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 93.139, z: 0}
 --- !u!1 &499019971
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 499019972}
   m_Layer: 0
   m_Name: A
-  m_TagString: Untagged
+  m_TagString: '"A"'
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -549,6 +549,8 @@ GameObject:
   - component: {fileID: 762973012}
   - component: {fileID: 762973011}
   - component: {fileID: 762973010}
+  - component: {fileID: 762973016}
+  - component: {fileID: 762973015}
   m_Layer: 0
   m_Name: Iplayer
   m_TagString: Untagged
@@ -642,14 +644,40 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762973009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.232384, y: 0.57, z: 2.826}
+  m_LocalRotation: {x: -0.00561708, y: 0.99981314, z: 0.00010391378, w: -0.01849615}
+  m_LocalPosition: {x: 12.74, y: 0.58, z: -9.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 182.12, z: -0.644}
+--- !u!114 &762973015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762973009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441bbcb28f36b954ca5916694afbadd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &762973016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762973009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afa9e80e34b634c8acbc2010f929cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePower: 2
+  rigidbody: {fileID: 762973010}
 --- !u!1 &1227656491
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,10 +899,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292702189}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1292702191
@@ -935,7 +963,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292702189}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.67, y: 0.05, z: -1.82}
+  m_LocalPosition: {x: 12.67, y: 0.1, z: -6.67}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
