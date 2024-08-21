@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Move2D : MonoBehaviour
@@ -10,12 +7,12 @@ public class Move2D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Console.WriteLine("같은 파일의 다른 작업");
+        Debug.Log("PL을 기다리는동안 기존 브렌치 내용을 사용하는 상황 가정");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
