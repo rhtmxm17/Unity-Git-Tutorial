@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 762973011}
   - component: {fileID: 762973010}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Iplayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
