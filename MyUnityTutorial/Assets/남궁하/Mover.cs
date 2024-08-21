@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     public int movePower;
-    
+    public int jumpPower;
 
     public Rigidbody rigidbody;
 
@@ -19,6 +19,7 @@ public class Mover : MonoBehaviour
             rigidbody.AddForce(Vector3.forward * movePower, ForceMode.Acceleration);
         if (Input.GetKey(KeyCode.DownArrow))
             rigidbody.AddForce(Vector3.back * movePower, ForceMode.Acceleration);
-
+        if(Input.GetKeyDown(KeyCode.Space))
+            rigidbody.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
     }
 }
