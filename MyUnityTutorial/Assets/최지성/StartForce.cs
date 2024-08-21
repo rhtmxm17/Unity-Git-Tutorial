@@ -1,9 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class StartForce : MonoBehaviour
 {
+    // 주석 추가하기
     public Vector3 speed;
     public Rigidbody target;
 
